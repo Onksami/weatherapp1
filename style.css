@@ -1,0 +1,134 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 350px;
+}
+
+.fullSide{
+    
+    width: 100%;
+    height: 100%;
+    padding: 180px;
+    
+    
+    
+}
+/* This is the left side */
+.left {
+    width: 15%;
+    background-color: aqua;
+    
+    
+}
+
+.lColumn{
+    float: left;
+    width: 100%;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: rgb(64, 65, 122);
+    background-color: rgb(191, 243, 243);
+    color: black;
+}
+
+.lRow{
+    width: 100%;
+    height: 25%;
+    border-color: black;
+    border: 1px;
+    margin-left: 10px;
+    
+}
+.lRow:hover{
+    width: 50px;
+    background-color: rgb(70, 36, 148);
+    color: white;
+}
+
+
+/* This is the right side */
+.right {
+    width: 933px;
+    height: 100%;
+    background: transparent;
+    padding-left: 167px;
+}
+
+.rColumn{
+    width: 933px;
+    height: 100%;
+}
+
+/* this is the first row of the right side */
+.rRow1{
+    width: 933px;
+    height: 15%;
+    margin-bottom: 10px;
+    
+}
+.weatherForecast{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+
+.weatherForecast .toLeft{
+    float: left;
+   
+}
+
+
+.weatherForecast .toRight {
+    text-align: right;
+}
+
+
+/* this is the secıond row of the right side */
+.rRow2{
+    width: 933px;
+    height: 50%;
+    
+
+}
+
+.days:hover{
+    width: 150px;
+    background-color: tomato;
+    color: azure;
+}
+.days{
+    float: left;
+    width: 115px;
+    padding: 4px;
+}
+.daysItems {
+    width: auto;
+    list-style-type: none;
+    border-style: solid;
+
+    
+}
+.daysItems li {
+   height: 50px;
+}
+
+.daysB {
+    font-weight: bold;
+}
+
+
+
+/* this is the third row of the right side */
+.rRow3{
+    width: 100%;
+    height: 10%;
+}
+
+
+
