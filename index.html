@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Trying</title>
-        <meta name: “viewport” content: “width =divice-width, initial-scale=1.0”> 
-        <link rel="stylesheet" href="style.css">
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
-    </head>
-    <body>
-        <div class="fullSide">
-            <div class="left">
-                <div class="lColumn">
-                    <div class="lRow">
-                            <span id="date">Date</span>
-                             
-                            <span class="cities">
-                                <select name="city">
-                                <option value="">Choose...</option>
-                                <option value="1">Adana</option>
+  <head>
+    <meta charset="utf-8" />
+    <title>Trying</title>
+    <meta name: “viewport” content: “width =divice-width, initial-scale=1.0”>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <div class="fullSide">
+      <div class="left">
+        <div class="lColumn">
+          <div class="lRow">
+            <span id="date">Date</span>
+
+            <span class="cities">
+              <select id="cities" name="city">
+                <option value="">Choose...</option>
+                <!-- <option value="1">Adana</option>
                                 <option value="2">Adıyaman</option>
                                 <option value="3">Afyonkarahisar</option>
                                 <option value="4">Ağrı</option>
@@ -97,108 +97,97 @@
                                 <option value="78">Karabük</option>
                                 <option value="79">Kilis</option>
                                 <option value="80">Osmaniye</option>
-                                <option value="81">Düzce</option>
-                            </select> 
-                        </span>
-                                
-                        
-                    </div>
-                    <hr>
-                    <span class="lRow"> weather image</span>
-                    <br><br><br>
-                    <hr>
-                    <span class="lRow"> weather degree</span>
-                    <br><br><br>
-                    <hr>
-                    <span class="lRow"> weather condition</span>
-                    <br><br>
-                  </div>
-
-            </div>
-
-            <div class="right">
-                <div class="rColumn">
-                    
-                        <div class="weatherForecast"> 
-                            <div>
-                                <div class="toLeft">Uv index</div>
-                                <div class="toRight">7 (high)</div>
-                            </div>
-                            <div>
-                                <div class="toLeft">Humudity</div>
-                                <div class="toRight">62 %</div>
-                            </div>
-                            <div>
-                                <div class="toLeft">Wind</div>
-                                <div class="toRight">5 km/h</div>
-                            </div>
-                        </div>
-                    
-                    
-
-                    <div class="rRow2" >
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Sunday</li>
-                                <li>28</li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB"> Monday </li>
-                                <li>28</li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Tuesday</li>
-                                <li>28</li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Wednesday</li>
-                                <li>28</li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Thursday</li>
-                                <li>28</li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Friday</li>
-                                <li>28 </li>
-                            </ul>
-                        </div>
-                        <div class="days">
-                            <ul class="daysItems">
-                                <li>Sunny</li>
-                                <li class="daysB">Saturday</li>
-                                <li>28 </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                   
-
-                    
-                </div>
-                
-
-            </div>
-
+                                <option value="81">Düzce</option> -->
+              </select>
+            </span>
+          </div>
+          <hr />
+          <div>
+            <img src="https://picsum.photos/200/300" width="100px" alt="" />
+          </div>
+          <span class="lRow"> weather image</span>
+          <br /><br /><br />
+          <hr />
+          <span id="degree" class="lRow"> weather degree</span>
+          <br /><br /><br />
+          <hr />
+          <span id="condition" class="lRow"> weather condition</span>
+          <br /><br />
         </div>
-    
-        <script src="app.js"></script>
+      </div>
 
-    </body>
+      <div class="right">
+        <div class="rColumn">
+          <div class="weatherForecast">
+            <div>
+              <div class="toLeft">Uv index</div>
+              <div class="toRight">7 (high)</div>
+            </div>
+            <div>
+              <div class="toLeft">Humudity</div>
+              <div class="toRight">62 %</div>
+            </div>
+            <div>
+              <div class="toLeft">Wind</div>
+              <div class="toRight">5 km/h</div>
+            </div>
+          </div>
+
+          <div id="week-days" class="rRow2">
+            <!-- <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Sunday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Monday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Tuesday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Wednesday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Thursday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Friday</li>
+                <li>28</li>
+              </ul>
+            </div>
+            <div class="days">
+              <ul class="daysItems">
+                <li>Sunny</li>
+                <li class="daysB">Saturday</li>
+                <li>28</li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>

@@ -1,145 +1,125 @@
 body {
-
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1100px;
-    height: 350px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1100px;
+  height: 350px;
 }
 
-.fullSide{
-
-    width: 100%;
-    height: 100%;
-    padding: 180px;
-    border-radius: 5px;
-
-
-
+.fullSide {
+  width: 100%;
+  height: 100%;
+  padding: 180px;
+  border-radius: 5px;
 }
-
-
 
 .left {
-    width: 15%;
-    background-color: aqua;
-
-
+  width: 15%;
+  background-color: aqua;
 }
 
-.lColumn{
-    float: left;
-    width: 100%;
-    border-radius: 5%;
-    border-style: solid;
-    border-color: rgb(64, 65, 122);
-    background-color: rgb(191, 243, 243);
-    color: black;
+.lColumn {
+  float: left;
+  width: 100%;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgb(64, 65, 122);
+  background-color: rgb(191, 243, 243);
+  color: black;
 }
 
-.lRow{
-    width: 100%;
-    height: 25%;
-    border-color: black;
-    border: 1px;
-    margin-left: 10px;
-
+.lRow {
+  width: 100%;
+  height: 25%;
+  border-color: black;
+  border: 1px;
+  margin-left: 10px;
 }
 
-.lRow .cities:hover{
-    background-color: blueviolet;
-    color: white;
+.lRow .cities:hover {
+  background-color: blueviolet;
+  color: white;
 }
 
 /* This is the left side */
 
 /* This is the right side */
 .right {
-    width: 933px;
-    height: 100%;
-    background: transparent;
-    padding-left: 167px;
+  width: 933px;
+  height: 100%;
+  background: transparent;
+  padding-left: 167px;
 }
 
-.rColumn{
-    width: 933px;
-    height: 100%;
+.rColumn {
+  width: 933px;
+  height: 100%;
 }
 
 /* this is the first row of the right side */
 
-
 /* right side first part */
-.weatherForecast{
-    border-style: solid;
-    
-    border-bottom: none;
-    width: 933px;
-    /* width: 100%;
+.weatherForecast {
+  border-style: solid;
+
+  border-bottom: none;
+  width: 933px;
+  /* width: 100%;
     height: 100%; */
-    border-color: rgb(41, 36, 36);
-   
-
+  border-color: rgb(41, 36, 36);
 }
 
-.weatherForecast .toLeft{
-    float: left;
-    color: white;
+.weatherForecast .toLeft {
+  float: left;
+  color: white;
 }
-
 
 .weatherForecast .toRight {
-    text-align: right;
-    color: white;
-}  
-
+  text-align: right;
+  color: white;
+}
 
 /* this is the secıond row of the right side */
-.rRow2{
-    width: 933px;
-    height: 50%;
-    border-style: solid;
-
+.rRow2 {
+  width: 933px;
+  height: 50%;
+  border-style: solid;
 }
 
-.days:hover{
-    width: 150px;
-    background-color: tomato;
-    color: azure;
+.days:hover {
+  transform: scale(1.5);
+  background-color: tomato;
+  color: azure;
 }
-.days{
-    float: left;
-    width: 115px;
-    padding: 4px;
-    
-    
+.days {
+  float: left;
+  width: 115px;
+  padding: 4px;
+  transition: all 0.2s ease-in-out;
 }
 .daysItems {
-    width: auto;
-    list-style-type: none;
-    color: white;
-
-
-
+  width: auto;
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .daysItems li {
-   height: 50px;
+  height: 50px;
 }
 
 .daysB {
-    font-weight: bold;
+  font-weight: bold;
+  cursor: pointer;
 }
-
-
 
 /* this is the third row of the right side */
-.rRow3{
-    width: 100%;
-    height: 10%;
+.rRow3 {
+  width: 100%;
+  height: 10%;
 }
-
-
-
