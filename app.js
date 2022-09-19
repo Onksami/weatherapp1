@@ -12,7 +12,10 @@ document.getElementById("date").innerHTML =
 
 const daysRow = document.getElementById("week-days");
 
-const cities = [{ name: "Ankara" }, { name: "İstanbul" }];
+const cities = [{ name: "Ankara" }, { name: "İstanbul" }, { name: "Bursa" }, { name: "İzmir" }, { name: "Kayseri" }
+, { name: "Antalya" }, { name: "Muğla" }, { name: "Trabzon" }, { name: "Samsun" }, { name: "Ordu" }
+, { name: "Aydın" }, { name: "Afyonkarahisar" }, { name: "Mersin" }, { name: "Denizli" }, { name: "Eskişehir" }
+];
 
 const citySelect = document.getElementById("cities");
 for (let index = 0; index < cities.length; index++) {
@@ -39,6 +42,26 @@ const daysWeather = [
     title: "Wednesday",
     degree: 25,
     condition: "Cloudy",
+  },
+  {
+    title: "Thursday",
+    degree: 28,
+    condition: "Sunny",
+  },
+  {
+    title: "Friday",
+    degree: 21,
+    condition: "Cloudy",
+  },
+  {
+    title: "Saturday",
+    degree: 23,
+    condition: "Rainy",
+  },
+  {
+    title: "Sunday",
+    degree: 30,
+    condition: "Sunny",
   },
 ];
 daysWeather.forEach((element) => {
@@ -72,6 +95,9 @@ for (let index = 0; index < daysItems.length; index++) {
     }
   });
 }
+
+
+const degree = document.getElementById("degree")
 
 // daysItems.forEach(function (element) {
 //   element.addEventListener("click", (e) => {
